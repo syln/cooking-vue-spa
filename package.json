@@ -1,0 +1,27 @@
+{
+  "name": "wechat-mall",
+  "version": "0.0.0",
+  "description": "A vue project.",
+  "private": true,
+  "keywords": [],
+  "scripts": {
+    "dev": "cooking watch -p",
+    "dist": "cooking build -p",
+    "deploy": "cooking build --no-color",
+    "test": "cooking test karma start --single-run"
+  },
+  "author": "qi",
+  "license": "ISC",
+  "dependencies": {
+    "babel-polyfill": "*",
+    "mint-ui": "^2.2.1",
+    "vue": "^2.0.1"
+  },
+  "devDependencies": {
+    "cooking-vue2": "*",
+    "min-ui": "^0.0.2",
+    "vue-resource": "^1.2.1",
+    "vue-router": "^2.3.0",
+    "vuex": "^2.2.1"
+  }
+}
